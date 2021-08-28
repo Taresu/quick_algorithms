@@ -6,11 +6,13 @@ Paths analyzed:
 * Crescent sorting, with pivot being the array element of the last position;
 * Crescent sorting, with random pivot.
 
-**apparently not working!**
+
+**algorithm apparently not working!**
 * Decrescent sorting, with pivot being the array element of the last position;
 
-**not done yet**
+**algorithm not done yet!**
 * Decrescent sorting, with random pivot.
+
 
 Benchmark / Time average:
 Elements:
