@@ -5,11 +5,11 @@ This practice is intended to analyze the response time of Quick Sort algorithms 
 Paths analyzed:
 * Crescent sorting, with pivot being the array element of the last position;
 * Crescent sorting, with random pivot.
-* 
-* **apparently not working!**
+
+**apparently not working!**
 * Decrescent sorting, with pivot being the array element of the last position;
 
-* **not done yet**
+**not done yet**
 * Decrescent sorting, with random pivot.
 
 Benchmark / Time average:
