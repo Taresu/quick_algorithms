@@ -7,11 +7,9 @@ Paths analyzed:
 * Crescent sorting, with random pivot.
 
 
-**algorithm apparently not working!**
-* Decrescent sorting, with pivot being the array element of the last position;
+**algorithm apparently not working!**: Decrescent sorting, with pivot being the array element of the last position;
 
-**algorithm not done yet!**
-* Decrescent sorting, with random pivot.
+**algorithm not done yet!**: Decrescent sorting, with random pivot.
 
 
 Benchmark / Time average:
