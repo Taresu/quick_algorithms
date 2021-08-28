@@ -1,42 +1,47 @@
 # quick_algorithms
 
 This practice is intended to analyze the response time of Quick Sort algorithms in different ways.
+
 Paths analyzed:
-* Randomic sorting, with random pivot
-* Crescent sorting, with pivot being the last position array element
-* Crescent sorting, with random pivot
-* Decrescent sorting (not working!)
+* Crescent sorting, with pivot being the array element of the last position;
+* Crescent sorting, with random pivot.
+* 
+* **apparently not working!**
+* Decrescent sorting, with pivot being the array element of the last position;
+
+* **not done yet**
+* Decrescent sorting, with random pivot.
 
 Benchmark / Time average:
 Elements:
   * |10| 
-    - Random: 0.00s; 
     - Crescent-LastPositionPivot: 0.00s; 
     - Crescent-RandomPivot: 0.00s;
-    - Decrescent: ?.
+    - Decrescent: 0.00s.
+    - Decrescent-RandomPivot: ?.
   * |100|
-    - Random: 0.00s;
     - Crescent-LastPositionPivot: 0.00s; 
     - Crescent-RandomPivot: 0.00s.
-    - Decrescent: ?.
+    - Decrescent: 0.00s.
+    - Decrescent-RandomPivot: ?.
   * |1.000| 
-    - Random: 0.00s;
     - Crescent-LastPositionPivot: 0.02s; 
     - Crescent-RandomPivot: 0.00s.
-    - Decrescent: ?.
+    - Decrescent: 0.00s.
+    - Decrescent-RandomPivot: ?.
   * |10.000| 
-    - Random: 0.00s;
     - Crescent-LastPositionPivot: 2.88s; 
     - Crescent-RandomPivot: 0.00s.
-    - Decrescent: ?.
+    - Decrescent: 0.32s.
+    - Decrescent-RandomPivot: ?.
   * |100.000| 
-    - Random: 0.01s;
-    - Crescent-LastPositionPivot: 627.66s; 
+    - Crescent-LastPositionPivot: 28.99s; 
     - Crescent-RandomPivot: 0.01s.
-    - Decrescent: ?.
+    - Decrescent-LastPositionPivot: 28.96s.
+    - Decrescent-RandomPivot: ?.
   * |1.000.000|
-    - Random: 0.13s;
-    - Crescent-LastPositionPivot: ?; 
+    - Crescent-LastPositionPivot: Segmentation Fault; 
     - Crescent-RandomPivot: 0.13s.
-    - Decrescent: ?.
+    - Decrescent: Segmentation Fault.
+    - Decrescent-RandomPivot: ?.
 
